@@ -51,10 +51,14 @@ if (Age < 18) {
 }
 
 // Ternery Operators are used as short hand notation for if else statements
-let votingAge  = 18;
-let Name = votingAge>18  ? "Juma": "Jack";
-console.log(`The person can vote`)
+let votingAge = 18;
+let Name = votingAge > 18 ? "Juma" : "Jack";
+console.log(`The person can vote`);
 
 let vote = 18;
-let win = vote>18 ? "Yes" :"No";
+let win = vote > 18 ? "Yes" : "No";
 console.log("winnner goes to Africa");
+
+const number = 18;
+let aGe = number > 18 ? "true" : "false";
+console.log(aGe); // aGe
