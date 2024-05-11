@@ -62,3 +62,7 @@ console.log("winnner goes to Africa");
 const number = 18;
 let aGe = number > 18 ? "true" : "false";
 console.log(aGe); // aGe
+
+let Vote = 18;
+let namE = age > 18 ? "vote" : "no voting";
+console.log(`${namE}`);
